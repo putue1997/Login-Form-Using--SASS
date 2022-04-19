@@ -1,0 +1,27 @@
+
+@import "../mixin/color";
+@import "../mixin/divsize";
+@import "../mixin/fonts";
+
+.sign-in{
+      display: flex;
+      width: 700px;
+
+      .form-left{
+            padding: 40px 60px;
+            background: #fff !important;
+            button{
+                  display: block;
+                  width: 100%;
+            }
+      }
+      .form-right{
+            width: 50%;
+            height: 300px;
+            background:#1340EB;
+            color: #fff;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+      }
+}
